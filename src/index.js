@@ -1,14 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import AreaDeLogin from "./Pages/Home";
+import Filmes from "./Pages/Filmes";
+import Hqs from "./Pages/Hqs";
+import Personagens from "./Pages/Personagens";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Switch>
+        <Route path="/Hqs" component={Hqs} />
+        <Route path="/Personagens" component={Personagens} />
+        <Route path="/Filmes" component={Filmes} />
+        <Route path="/" component={AreaDeLogin} />
+      </Switch>
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 237,
+    "title": "Homem Aranha",
+    "description": "Após ser mordido por uma aranha radioativa, Peter Parker se torna o amigo da vizinhança, o Homem-Aranha.",
+    "appears_in": null,
+    "stars": 4,
+    "image": "spiderman.png"
+  },
+  {
+    "id": 2337,
+    "title": "Wanda Maximoff",
+    "description": "Wanda Maximoff foi sequestrada da Sérvia e trazida para a Montanha Wundagore, base do Alto Evolucionário. Durante anos, ela e seu irmão gêmeo, Pietro, acreditavam que eram filhos de um casal de ciganos.",
+    "appears_in": [
+      "Vingadores - Era de Ultron",
+      "Vingadores - Guerra civil",
+      "Vingadores - Guerra infinita",
+      "Vingadores - Ultimato",
+      "WandaVision"
+    ],
+    "stars": 4,
+    "image": "wanda.png"
+  },
+  {
+    "id": 2323,
+    "title": "Thanos",
+    "description": "A lua Titã era governada por Mentor (A'Lars), quando então reinava paz e tecnologia. Mentor tinha dois filhos: Eros e Thanos.  Ao contrário do irmão, Thanos, era bem mais poderoso e almejava ainda mais.",
+    "appears_in": [
+      "Vingadores",
+      "Guardiões da Galáxia - vol. I",
+      "Vingadores - Era de Ultron",
+      "Vingadores - Guerra civil",
+      "Vingadores - Guerra infinita",
+      "Vingadores - Ultimato",
+      "WandaVision"
+    ],
+    "stars": 5,
+    "image": "thanos.png"
+  },
+  {
+    "id": 235453,
+    "title": "Hulk",
+    "description": "A lua Titã era governada por Mentor (A'Lars), quando então reinava paz e tecnologia. Mentor tinha dois filhos: Eros e Thanos.  Ao contrário do irmão, Thanos, era bem mais poderoso e almejava ainda mais.",
+    "appears_in": [
+      "Vingadores",
+      "Vingadores - Era de Ultron",
+      "Thor - Ragnarok",
+      "Vingadores - Guerra infinita",
+      "Vingadores - Ultimato"
+    ],
+    "stars": 4,
+    "image": "hulk.png"
+  }
+]
