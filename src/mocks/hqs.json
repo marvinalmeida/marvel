@@ -1,30 +1,27 @@
 [
-    {
-        "id": 6677,
-        "title": "Thor Vikings",
-        "description": "Garth Ennis e sua violência atacam novamente na HQ que leva a violência das histórias de Thor ao limite! Na minissérie de 2003 vemos vikings de um passado distante voltando a vida.",
-        "details":"Garth Ennis e sua violência atacam novamente na HQ que leva a violência das histórias de Thor ao limite! Na minissérie de 2003 vemos vikings de um passado distante voltando a vida.",
-        "stars": 5,
-        "image": "thor.png",
-        "buy_in":["americanas","amazon"]
-    
-      },
-      {
-        "id": 7788,
-        "title": "Surfista Prateado",
-        "description": "O único oponente do Devorador de Mundos é o herói que ele aprisionou na Terra: o Surfista Prateado, Galactus jurou não consumir o planeta, mas e se, em vez disso, ele transformar a civilização em seus adoradores?",
-        "details":"O único oponente do Devorador de Mundos é o herói que ele aprisionou na Terra: o Surfista Prateado, Galactus jurou não consumir o planeta, mas e se, em vez disso, ele transformar a civilização em seus adoradores?",
-        "stars": 3,
-        "image": "surfista.png"
-    
-      },
-      {
-        "id": 8899,
-        "title": "Wolverine - Origens",
-        "description": "Origem é uma minissérie em quadrinhos publicada pela Marvel Comics em seis edições, entre 2001 e 2002. A história conta a revelação do passado do personagem Wolverine. ",
-        "details":"Origem é uma minissérie em quadrinhos publicada pela Marvel Comics em seis edições, entre 2001 e 2002. A história conta a revelação do passado do personagem Wolverine. ",
-        "stars": 5,
-        "image": "wolverine.png"
-    
-      }
+	{
+		"id": 6677,
+		"title": "Thor Vikings",
+		"description": "Garth Ennis e sua violência atacam novamente na HQ que leva a violência das histórias de Thor ao limite! Na minissérie de 2003 vemos vikings de um passado distante voltando a vida.",
+		"details": "Garth Ennis e sua violência atacam novamente na HQ que leva a violência das histórias de Thor ao limite! Na minissérie de 2003 vemos vikings de um passado distante voltando a vida.",
+		"stars": 5,
+		"image": "thor.png",
+		"buy_in": ["americanas", "amazon"]
+	},
+	{
+		"id": 7788,
+		"title": "Surfista Prateado",
+		"description": "O único oponente do Devorador de Mundos é o herói que ele aprisionou na Terra: o Surfista Prateado, Galactus jurou não consumir o planeta, mas e se, em vez disso, ele transformar a civilização em seus adoradores?",
+		"details": "O único oponente do Devorador de Mundos é o herói que ele aprisionou na Terra: o Surfista Prateado, Galactus jurou não consumir o planeta, mas e se, em vez disso, ele transformar a civilização em seus adoradores?",
+		"stars": 3,
+		"image": "surfista.png"
+	},
+	{
+		"id": 8899,
+		"title": "Wolverine - Origens",
+		"description": "Origem é uma minissérie em quadrinhos publicada pela Marvel Comics em seis edições, entre 2001 e 2002. A história conta a revelação do passado do personagem Wolverine. ",
+		"details": "Origem é uma minissérie em quadrinhos publicada pela Marvel Comics em seis edições, entre 2001 e 2002. A história conta a revelação do passado do personagem Wolverine. ",
+		"stars": 5,
+		"image": "wolverine.png"
+	}
 ]
