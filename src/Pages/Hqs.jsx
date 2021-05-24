@@ -1,10 +1,15 @@
 import Layout from "../Components/Layout/Layout";
 import Carousel from "../Components/Carousel/Carousel"
-import hqsMock from "../mocks/hqs.json"
+import { useSelector } from "react-redux"
 
-const Hqs = () => (
-  <Layout>
-    <Carousel items={hqsMock}/>
-  </Layout>
-);
+const Hqs = () => {
+
+  const hqs = useSelector(store => store.hqs)
+
+  return (
+    <Layout>
+      <Carousel items={hqs}/>
+    </Layout>
+  );
+}
 export default Hqs;

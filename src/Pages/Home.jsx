@@ -4,14 +4,25 @@ import styled from "styled-components";
 import Checkbox from "@material-ui/core/Checkbox";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import { Link } from "react-router-dom";
+import Logo from '../Components/Logo/Logo'
 
 const Box = styled.div`
   color: #84848d;
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  padding-top: 160px;
+  padding: 100px 0 60px 0;
   margin-left: 200px;
+  
+  .logo-container {
+    display: flex;
+    padding-bottom: 50px;
+    > div {
+      font-size: 100px;
+      height: 104px;
+    }
+  }
+
   .login-register {
     text-align: center;
     a {
@@ -72,6 +83,9 @@ const Home = () => {
   return (
     <Layout disabledHeader={true}>
       <Box>
+      <div className="logo-container">
+        <Logo/>
+      </div>
         <h1>Bem Vindo(a) de Volta!</h1>
         <h2>Acesse sua conta</h2>
         <TextField
