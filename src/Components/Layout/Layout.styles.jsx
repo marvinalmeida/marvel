@@ -30,5 +30,5 @@ export const Shadow = styled.div`
     rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 0)
   );
-  height: 100vh;
+  min-height: 100vh;
 `;

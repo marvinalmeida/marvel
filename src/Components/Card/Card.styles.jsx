@@ -23,13 +23,14 @@ export const CardLite = styled.div`
   .title {
     font-size: 20px;
     font-weight: bold;
-    
+   
   }
   .description {
     font-size: 12px;
   }
   .btn-details {
     font-size: 20px;
+    cursor: pointer;
   }
 `;
 
@@ -42,6 +43,11 @@ export const CardDetails = styled.div`
   background-image: linear-gradient(to right, rgba(255, 0, 0, 1), #5d0000);
   position: absolute;
   z-index: 5;
+  h5{
+    margin: 0;
+    font-size: 18px;
+    font-weight:bold;
+  }
   .buy_in{
     ul{
       display: flex;
@@ -81,6 +87,7 @@ export const CardDetails = styled.div`
   .close-details {
     display: flex;
     justify-content: flex-end;
+    cursor:pointer;
   }
 
   border-radius: 30px;

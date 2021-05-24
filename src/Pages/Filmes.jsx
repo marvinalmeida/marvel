@@ -1,11 +1,14 @@
 import Layout from "../Components/Layout/Layout";
 import Carousel from "../Components/Carousel/Carousel"
-import moviesMock from '../mocks/movies.json'
+import { useSelector } from "react-redux"
 
 function Filmes() {
+
+  const movies = useSelector(store => store.movies)
+  
   return (
     <Layout>
-      <Carousel items={moviesMock}/>
+      <Carousel items={movies}/>
     </Layout>
   );
 }

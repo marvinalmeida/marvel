@@ -9,8 +9,6 @@ export const Wrapper = styled.div`
   background-color: red;
   color: white;
   font-size: 40px;
-  display: flex;
-  align-items: end;
   height: 50px;
   padding: 6px 12px 20px 12px;
 `;
